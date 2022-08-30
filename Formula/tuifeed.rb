@@ -1,9 +1,9 @@
 class Tuifeed < Formula
   desc "a terminal feed reader with a fancy ui"
   homepage "https://github.com/veeso/tuifeed"
-  url "https://github.com/veeso/tuifeed/releases/latest/download/tuifeed-v0.3.1-x86_64-apple-darwin.tar.gz"
-  sha256 "48696b0d8f98755f4b64754661ba368c56df104cacf0a86b72ea6b9d588a37bd"
-  version "0.3.1"
+  url "https://github.com/veeso/tuifeed/releases/latest/download/tuifeed-v0.3.2-x86_64-apple-darwin.tar.gz"
+  sha256 "d254ee547e18cdda39d7e9bf92ea2b1413ba9db2b0bd10a31dbf5197e87fe7e5"
+  version "0.3.2"
 
   def install
     bin.install "tuifeed"
