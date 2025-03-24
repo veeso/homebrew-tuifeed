@@ -2,27 +2,27 @@ class Tuifeed < Formula
   desc "A terminal feed reader with a fancy ui"
   homepage "https://github.com/veeso/tuifeed"
   license "MIT"
-  version "0.4.0"
+  version "0.4.1"
 
   on_macos do
     on_arm do
-      url "https://github.com/veeso/tuifeed/releases/latest/download/tuifeed-v0.4.0-arm64-apple-darwin.tar.gz"
-      sha256 "de6ade9c6ab2d2b22dd5d5325c7f4831ef307ca5b523b3971746d9a58ae7b1eb"
+      url "https://github.com/veeso/tuifeed/releases/latest/download/tuifeed-v0.4.1-arm64-apple-darwin.tar.gz"
+      sha256 "17d6da314be7535c0994f9cef0df5251a961eff0598052f0d21e7478a26c705e"
     end
     on_intel do
-      url "https://github.com/veeso/tuifeed/releases/latest/download/tuifeed-v0.4.0-x86_64-apple-darwin.tar.gz"
-      sha256 "04fce21976c3209a026130c4c610321bf0e47d88fccb66d02bdada604a8f1bc0"
+      url "https://github.com/veeso/tuifeed/releases/latest/download/tuifeed-v0.4.1-x86_64-apple-darwin.tar.gz"
+      sha256 "c5dde4d28ac47e8f29c646101bd290e57aeefb9d2630fccc615c57a14561243c"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/veeso/tuifeed/releases/latest/download/tuifeed-v0.4.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "839b66b6f57604bc8b8799aa5e3a296a8aa6d5d5b7e939a779d9ec0a2b7fd013"
+      url "https://github.com/veeso/tuifeed/releases/latest/download/tuifeed-v0.4.1-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "811adf32128457cab3565742fcb9b0da39f11dbac002f98c54f6be6804b16d87"
     end
     on_intel do
-      url "https://github.com/veeso/tuifeed/releases/latest/download/tuifeed-v0.4.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "125120d563369004f4e6def49c809d8c16cea8447b14b84473c74b842fefc321"
+      url "https://github.com/veeso/tuifeed/releases/latest/download/tuifeed-v0.4.1-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "b320ed0fc0c5d9f5a5e9d91c6b432f489572ac941011ef62944a11839c37f8eb"
     end
   end
 
